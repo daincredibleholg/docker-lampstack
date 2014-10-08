@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-MAINTAINER John Fink <john.fink@gmail.com>
+MAINTAINER Holger Steinhauer <hlibrenz@gmail.com>
 RUN apt-get update
 RUN apt-get -y upgrade
 RUN DEBIAN_FRONTEND=noninteractive apt-get -y install mysql-client mysql-server apache2 libapache2-mod-php5 pwgen python-setuptools php5-mysql php5-common php5-curl php5-gd php5-geoip php5-imagick php5-imap php5-intl php5-ldap php5-mcrypt php5-memcache php5-tidy php5-xmlrpc php5-xsl vim
